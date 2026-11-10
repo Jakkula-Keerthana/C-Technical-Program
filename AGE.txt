@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+int age,age1;
+printf("enter age:");
+scanf("%d",&age);
+printf("%d",&age1);
+scanf("%d",&age1);
+}
+printf("value of age %d",age);
+printf("value of age1:%d",age1);
