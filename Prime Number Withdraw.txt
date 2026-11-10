@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+int c,p,bal=10000,withdraw;
+printf("insert card:");
+scanf("%d",&c);
+if(c==1){
+printf("enter prime number:")
+scanf("%d",&p);
+if(p==123){
+printf("enter withdraw amount:');
+scanf("%d",&withdraw);
+if(withdraw<=bal){
+printf("withdraw successful");
+}
+else{
+printf("\n sufficient bal");
+}
+}
+else{
+printf("enter correct pin");
+}
+}
+else{
+printf("\insert valid card");
+}
+return0;
+}
