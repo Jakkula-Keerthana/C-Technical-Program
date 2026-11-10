@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+int balance=10000;
+int withdraw amount=10000;
+if(withdraw_amount=balance){
+printf("withdraw successfully");
+}
+else{
+printf("in sufficient balance");
+}
+
