@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+int num,c=0,d,pow,sum=0;
+printf("enter the n value:");
+scanf("%d",&num); num
+int org=num;num=org
+while(num>0){
+(+=1;
+num=num/19
+}num=org;
+while(num>0){
+d=num%10;
+pow=1;
+for(int i=1;i<=(;i++){
+pow=pow*d;
+}
+sum+=pow;
+num=num/10;
+}
+if(sum==org){
+printf("Armstrong number");
+}
+else{
+printf("not a Armstrong Number");
+}
+}
+
